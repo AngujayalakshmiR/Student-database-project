@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #000000;
+  opacity: 0.8;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.conten {
+  position: fixed;
+  top: 0;
+  align:center;
+  width: 97%;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #00000084;
+  color: #fff;
+}
+</style>
+</head>
+<body>
+  <container>
+    
+
+  <video autoplay muted loop id="myVideo">
+    <source src="eduvideo.mp4" type="video/mp4">
+  </video>
+  <div class="conten">
+    <ul>
+      
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="Add.html">Add</a></li>
+     
+      <li><a href="modify.html">Modify</a></li>
+      <li><a href="remove.html">Remove</a></li>
+      <li style="float:right"><a href="readphp.php">Read</a></li>
+    </ul></div>
+    
+  
+  
+  <div class="content">
+    <h1>STUDENT DETAILS</h1>
+    <p>This page is designed to add, modify, store and read details of any individual student and make use of it, update any time required. </p>
+    <button id="myBtn" onclick="document.location='stackqueue.html'">For more projects...</button>
+  </div>
+</container>
+ 
+  
+
+
+</body>
+</html>
